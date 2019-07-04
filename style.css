@@ -21,7 +21,7 @@ h1{
 }
 #logo{
     width: 15%;
-    padding: 2% 0 2% ;
+    padding: 2% 0 0 ;
     margin:auto;
 
 }
@@ -46,6 +46,7 @@ h1{
 }
 .soundboard{
     padding: 2%;
+    padding-bottom: 1%;
     margin: 2%;
     margin-top:0;
     background-color: var(--aqua);
