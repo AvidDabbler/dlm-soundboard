@@ -1,0 +1,47 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    size: 12px;
+    width: 100%;
+    height: 100%;
+    background-color: beige
+}
+#logo{
+    width: 15%;
+    padding: 0;
+    margin:auto;
+
+}
+#logo img{
+    width: 100%;
+    margin: auto;
+}
+#soundboard{
+    padding: 40px;
+    margin: 5%;
+    margin-top:0;
+    background-color: blue;
+    width: 80%;
+    height: 80%;
+}
+.sound-btn{
+    margin: 20px;
+    width: 90px;
+    height: 90px;
+    float: left;
+    background-color: white;
+}
+#footer{
+    width: 80%;
+    margin: 0 10%;
+    position: relative;
+    display: inline-block;
+    background-color: aquamarine;
+    
+}
+#footer a{
+    display: inline-block;
+    float: none;
+    padding-left: 10%;
+    margin: 30px;
+}
