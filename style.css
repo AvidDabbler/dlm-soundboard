@@ -1,14 +1,27 @@
+:root{
+    --orange: #ff6f59;
+    --blue: #3b6da7;
+    --aqua: #77cdcd;
+    --white:#fafafa;
+    --red:#c5283d;
+}
+
 html, body{
     padding: 0;
     margin: 0;
     size: 12px;
     width: 100%;
     height: 100%;
-    background-color: beige
+    background-color: var(--red)
+}
+h1{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color:var(--blue)
 }
 #logo{
     width: 15%;
-    padding: 0;
+    padding: 2% 0 2% ;
     margin:auto;
 
 }
@@ -16,32 +29,87 @@ html, body{
     width: 100%;
     margin: auto;
 }
-#soundboard{
-    padding: 40px;
-    margin: 5%;
+#Header{
+    width: 100%;
+    height: 90px;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+#Header-cont{
+    background-color: var(--white);
+    width:46%;
+    display:inline-block;
+    margin: 1% 27% 0 27%;
+    position: relative;
+    border-radius: 20px;
+
+}
+.soundboard{
+    padding: 2%;
+    margin: 2%;
     margin-top:0;
-    background-color: blue;
-    width: 80%;
-    height: 80%;
+    background-color: var(--aqua);
+    width: 25%;
+    border-radius: 20px;
+    float: left;
+
+}
+.button-container{
+    width:100%;
+    height: 90px;
+    background-color:var(--white);
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.button-container:hover{
+    box-shadow: 10px 10px 10px grey;
 }
 .sound-btn{
     margin: 20px;
-    width: 90px;
-    height: 90px;
     float: left;
-    background-color: white;
+    background-color: white;   
+}
+div.doug{
+    content:url(img/doug.png);
+    height: 80%;
+    padding: 0;
+    margin: 6px 0 0 6px;
+    position: relative;
+}
+div.heart{
+    content:url(img/heart.jpeg);
+    height: 80%;
+    padding: 0;
+    margin: 6px 0 0 6px;
+    position: relative;
+}
+div.movies{
+    content:url(img/movies.jpeg);
+    height: 80%;
+    padding: 0;
+    margin: 6px 0 0 6px;
+    position: relative;
 }
 #footer{
-    width: 80%;
-    margin: 0 10%;
-    position: relative;
+    padding:auto;
+    width: 100%;
     display: inline-block;
-    background-color: aquamarine;
-    
+    text-align: center;
+    position: relative;
+
 }
 #footer a{
     display: inline-block;
     float: none;
-    padding-left: 10%;
-    margin: 30px;
+    margin-right:10px;
+
+}
+#credits{
+    width: 10%;
+    padding: 2% 0 2% ;
+    margin:auto;
+}
+#credits img{
+    width: 100%;
+    margin: auto;
 }
