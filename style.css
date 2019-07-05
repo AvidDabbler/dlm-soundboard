@@ -5,7 +5,6 @@
     --white:#fafafa;
     --red:#c5283d;
 }
-
 html, body{
     padding: 0;
     margin: 0;
@@ -20,7 +19,7 @@ h1{
 }
 #logo{
     width: 200px;
-    padding: 2% 0 0 ;
+    padding: 2% 0 0;
     margin:auto;
 }
 #logo img{
@@ -39,7 +38,6 @@ h1{
     margin: 1% 27% 0 27%;
     position: relative;
     border-radius: 20px;
-
 }
 .soundboard{
     padding: 2%;
@@ -64,8 +62,8 @@ h1{
     margin:35px 0 0 0;
     color: var(--blue);
 }
-.button-container:hover{
-    box-shadow: 10px 10px 10px grey;
+button:hover{
+    box-shadow: 10px 10px 10px rgb(85, 81, 81);
 }
 .sound-btn{
     margin: 20px;

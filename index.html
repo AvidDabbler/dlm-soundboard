@@ -10,6 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="img/doug.jpeg">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -21,64 +22,76 @@
         
         <div id="main">
             <div id="Header">
-                <div id="Header-cont">
+                <button id="Header-cont" onclick="play('sound/dlm-intro.mp3')">
                         <h1>Doug Loves Movies Soundboard</h1>
-                </div>
+                </button>
             </div>
         <div id="doug-clips" class="soundboard">
-            <div class="button-container">
+            <button class="button-container" onclick="play('sound/hey.mp3')">
                 <div class="sound-btn doug"></div>
                 <h3>Hey Hey Hey</h3>
-            </div>
-            <div class="button-container">
+            </button>
+            <button class="button-container" onclick="play('sound/i-love-movies.mp3')">
                 <div class="sound-btn doug"></div>
                 <h3>My Name Is</h3>
-            </div>
-            <div class="button-container">
+            </button>
+            <button class="button-container" onclick="play('sound/mhmm.mp3')">
                 <div class="sound-btn doug"></div>
                 <h3>MmHmmm</h3>
-            </div>
-            <div class="button-container">
+            </button>
+            <button class="button-container"  onclick="play('sound/name-tags1.mp3')">
                 <div class="sound-btn doug"></div>
                 <h3>Name Tags</h3>
-            </div>
+            </button>
+            <button class="button-container"  onclick="play('sound/doug-loves-movies-dot-com.mp3')">
+                <div class="sound-btn doug"></div>
+                <h3>DLM.com</h3>
+            </button>
         </div>
         <div id="heart-clips" class="soundboard">
-                <div class="button-container">
-                    <div class="sound-btn heart"></div>
-                    <h3>Jeff</h3>
-                </div>
-                <div class="button-container">
-                    <div class="sound-btn heart"></div>
-                    <h3>Bert</h3>
-                </div>
-                <div class="button-container">
-                    <div class="sound-btn heart"></div>
-                    <h3>Name Tags</h3>
-                </div>
-                <div class="button-container">
-                    <div class="sound-btn heart"></div>
-                    <h3>Were Back</h3>
-                </div>
-            </div>
-            <div id="movies-clips" class="soundboard">
-                <div class="button-container">
-                    <div class="sound-btn movies"></div>
-                    <h3>Prof Tate</h3>
-                </div>
-                <div class="button-container">
-                    <div class="sound-btn movies"></div>
-                    <h3>I love Movies</h3>
-                </div>
-                <div class="button-container">
-                    <div class="sound-btn movies"></div>
-                    <h3>Were Back</h3>
-                </div>
-                <div class="button-container">
-                    <div class="sound-btn movies"></div>
-                    <h3>Last Movie</h3>
-                </div>
-            </div>
+            <button class="button-container" onclick="play('sound/Jeff1.mp3')">
+                <div class="sound-btn heart"></div>
+                <h3>Jeff</h3>
+            </button>
+            <button class="button-container" onclick="play('sound/turn-it-off-bert.mp3')">
+                <div class="sound-btn heart"></div>
+                <h3>Bert</h3>
+            </button>
+            <button class="button-container" onclick="play('sound/prize-bag.mp3')">
+                <div class="sound-btn heart"></div>
+                <h3>Prize Bag</h3>
+            </button>
+            <button class="button-container" onclick="play('sound/were-back.mp3')">
+                <div class="sound-btn heart"></div>
+                <h3>Were Back</h3>
+            </button>
+            <button class="button-container" onclick="play('sound/all-of-that.mp3')">
+                <div class="sound-btn heart"></div>
+                <h3>All of that</h3>
+            </button>
+        </div>
+        <div id="movies-clips" class="soundboard">
+            <button class="button-container" onclick="play('sound/professor-tate.mp3')">
+                <div class="sound-btn movies"></div>
+                <h3>Prof Tate</h3>
+            </button>
+            <button class="button-container" onclick="play('sound/commercial-break.mp3')">
+                <div class="sound-btn movies"></div>
+                <h3>Commercial</h3>
+            </button>
+            <button class="button-container" onclick="play('sound/good-job-dude.mp3')">
+                <div class="sound-btn movies"></div>
+                <h3>Good Job</h3>
+            </button>
+            <button class="button-container" onclick="play('sound/last-movie.mp3')">
+                <div class="sound-btn movies"></div>
+                <h3>Last Movie</h3>
+            </button>
+            <button class="button-container" onclick="play('sound/doug-plugs.mp3')">
+                <div class="sound-btn movies"></div>
+                <h3>Doug Plugs</h3>
+            </button>
+        </div>
 
         <script src="script.js" async defer></script>
 
