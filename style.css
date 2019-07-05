@@ -9,10 +9,9 @@
 html, body{
     padding: 0;
     margin: 0;
-    size: 12px;
-    width: 100%;
-    height: 100%;
-    background-color: var(--red)
+    background-color: var(--red);
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
 }
 h1{
     text-align: center;
@@ -20,10 +19,9 @@ h1{
     color:var(--blue)
 }
 #logo{
-    width: 15%;
+    width: 200px;
     padding: 2% 0 0 ;
     margin:auto;
-
 }
 #logo img{
     width: 100%;
@@ -31,7 +29,6 @@ h1{
 }
 #Header{
     width: 100%;
-    height: 90px;
     display: inline-block;
     margin-bottom: 2%;
 }
@@ -62,6 +59,11 @@ h1{
     margin-bottom: 20px;
     border-radius: 20px;
 }
+.button-container h3{
+    float:left;
+    margin:35px 0 0 0;
+    color: var(--blue);
+}
 .button-container:hover{
     box-shadow: 10px 10px 10px grey;
 }
@@ -70,6 +72,7 @@ h1{
     float: left;
     background-color: white;   
 }
+
 div.doug{
     content:url(img/doug.png);
     height: 80%;
