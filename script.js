@@ -1,4 +1,3 @@
 function play(clip){
-    const audio = new Audio(clip);
-    audio.play();
+    new Audio(clip).play();
 }

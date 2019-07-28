@@ -11,6 +11,7 @@ html, body{
     background-color: var(--red);
     font-family: Helvetica, sans-serif;
     font-size: 20px;
+    display: inline-block;
 }
 h1{
     text-align: center;
@@ -28,13 +29,11 @@ h1{
 }
 #Header{
     width: 100%;
-    display: inline-block;
     margin-bottom: 2%;
 }
 #Header-cont{
     background-color: var(--white);
     width:46%;
-    display:inline-block;
     margin: 1% 27% 0 27%;
     position: relative;
     border-radius: 20px;
@@ -95,13 +94,11 @@ div.movies{
 #footer{
     padding:auto;
     width: 100%;
-    display: inline-block;
     text-align: center;
     position: relative;
 
 }
 #footer a{
-    display: inline-block;
     float: none;
     margin-right:10px;
 
